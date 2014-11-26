@@ -1,0 +1,15 @@
+{
+	"ImportPath": "go-heroku-docker-beanstalk-example",
+	"GoVersion": "go1.3.3",
+	"Packages": [
+		"go-heroku-docker-beanstalk-example",
+		"go-heroku-docker-beanstalk-example/go-heroku-docker-beanstalk-example-worker"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/zenazn/goji",
+			"Comment": "v0.8.1-10-g285133e",
+			"Rev": "285133e626ca70d5bcf7c57d2fb63328dc21b364"
+		}
+	]
+}
