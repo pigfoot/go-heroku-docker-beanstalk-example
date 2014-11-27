@@ -9,7 +9,7 @@ Reference: http://golang.org/doc/code.html
 
 Your workspace maybe like (run godep save github.com/example_user/example_proj)
 
-'''
+```
 bin/
     streak                         # command executable
     todo                           # command executable
@@ -41,7 +41,7 @@ src/
             .git/                  # git repository metadata (edit here)
             main.go                # command source
             main_test.go           # command source
-'''
+```
 
 ### Setup folder structure && github (already create a project on github)
 Github is optional, but it's easy if you would like to opensource it.
