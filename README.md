@@ -9,6 +9,7 @@ Reference: http://golang.org/doc/code.html
 
 Your workspace maybe like (run godep save github.com/example_user/example_proj)
 
+'''
 bin/
     streak                         # command executable
     todo                           # command executable
@@ -40,8 +41,7 @@ src/
             .git/                  # git repository metadata (edit here)
             main.go                # command source
             main_test.go           # command source
-
-to make life simple, we will also use gopm here.
+'''
 
 ### Setup folder structure && github (already create a project on github)
 Github is optional, but it's easy if you would like to opensource it.
@@ -51,7 +51,6 @@ It's also ok if using private repository on github or bitbucket.
 $ PROJ="go-heroku-docker-beanstalk-example"
 $ REPO="https://github.com/pigfoot/${PROJ}"
 $ go get -u github.com/tools/godep
-$ go get -u github.com/gpmgo/gopm
 $ mkdir -p ${PROJ}-workspace/src && cd ${PROJ}-workspace/src && git clone ${REPO} && cd ${PROJ}
 $ export GOPATH=${PWD}/../../
 $ export PATH="${GOPATH}/bin:${PATH}"
