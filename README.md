@@ -94,9 +94,10 @@ $ echo "web: PORT=\$PORT ${PROJ}" > Procfile
 $ gofmt -w server.go
 $ godep get github.com/zenazn/goji
 $ godep save ${PROJ}
+```
 
 ### Create template worker
-
+```bash
 $ mkdir -p ${PROJ}-worker
 $ cat << EOF > ${PROJ}-worker/main.go
 package main
