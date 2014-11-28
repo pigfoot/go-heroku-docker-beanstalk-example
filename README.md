@@ -1,3 +1,5 @@
+[ ![Codeship Status for pigfoot/go-heroku-docker-beanstalk-example](https://codeship.com/projects/be4b1d30-58fd-0132-0c75-6e3b1978079c/status)](https://codeship.com/projects/50181)
+
 ## Initialization
 
 Initialize project (godep + github + heroku)
